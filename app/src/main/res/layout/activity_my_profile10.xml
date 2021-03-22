@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F2F6F7"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle20451"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/chevronleft2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homework"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:fontFamily="@font/lato"
+                android:textColor="#3F3F3F"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:background="@android:color/transparent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="150dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:background="@drawable/rectangle2077"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Homework Title"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#484347"
+                                android:paddingTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14:00 - Mon"
+                                android:textSize="12sp"
+                                android:alpha="0.8"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:layout_alignParentEnd="true"
+                                android:textColor="#342525"
+                                android:paddingTop="10dp"/>
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#DFDFDF"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="4dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="5"
+                            android:textColor="#2A2B2F"
+                            android:layout_marginTop="6dp"
+                            android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                            android:textSize="12sp"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/lato"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp">
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="60dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup2" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="40dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup3" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup4" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                app:cardCornerRadius="15dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="4dp"
+                                    android:background="@drawable/path20"
+                                    android:gravity="center"
+                                    android:text="+12"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                        </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="330dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="325dp"
+                        android:background="@drawable/rectangle2078"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Homework Title"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#484347"
+                                android:paddingTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14:00 - Mon"
+                                android:textSize="12sp"
+                                android:alpha="0.8"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:layout_alignParentEnd="true"
+                                android:textColor="#342525"
+                                android:paddingTop="10dp"/>
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#DFDFDF"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="4dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:textColor="#2A2B2F"
+                            android:layout_marginTop="6dp"
+                            android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                            android:textSize="12sp"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/lato"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/whyrcic1"
+                                android:scaleType="fitXY"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/group17148"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp">
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="60dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup2" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="40dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup3" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup4" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                app:cardCornerRadius="15dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="4dp"
+                                    android:background="@drawable/path20"
+                                    android:gravity="center"
+                                    android:text="+12"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="150dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:background="@drawable/rectangle2077"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Homework Title"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#484347"
+                                android:paddingTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14:00 - Mon"
+                                android:textSize="12sp"
+                                android:alpha="0.8"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:layout_alignParentEnd="true"
+                                android:textColor="#342525"
+                                android:paddingTop="10dp"/>
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#DFDFDF"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="4dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="5"
+                            android:textColor="#2A2B2F"
+                            android:layout_marginTop="6dp"
+                            android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                            android:textSize="12sp"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/lato"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp">
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="60dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup2" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="40dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup3" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup4" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                app:cardCornerRadius="15dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="4dp"
+                                    android:background="@drawable/path20"
+                                    android:gravity="center"
+                                    android:text="+12"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="330dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="325dp"
+                        android:background="@drawable/rectangle2078"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Homework Title"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#484347"
+                                android:paddingTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14:00 - Mon"
+                                android:textSize="12sp"
+                                android:alpha="0.8"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:layout_alignParentEnd="true"
+                                android:textColor="#342525"
+                                android:paddingTop="10dp"/>
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#DFDFDF"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="4dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:textColor="#2A2B2F"
+                            android:layout_marginTop="6dp"
+                            android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                            android:textSize="12sp"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/lato"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/whyrcic1"
+                                android:scaleType="fitXY"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/group17148"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp">
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="60dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup2" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="40dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup3" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup4" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                app:cardCornerRadius="15dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="4dp"
+                                    android:background="@drawable/path20"
+                                    android:gravity="center"
+                                    android:text="+12"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="150dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:background="@drawable/rectangle2077"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Homework Title"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#484347"
+                                android:paddingTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14:00 - Mon"
+                                android:textSize="12sp"
+                                android:alpha="0.8"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:layout_alignParentEnd="true"
+                                android:textColor="#342525"
+                                android:paddingTop="10dp"/>
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#DFDFDF"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="4dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="5"
+                            android:textColor="#2A2B2F"
+                            android:layout_marginTop="6dp"
+                            android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                            android:textSize="12sp"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/lato"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp">
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="60dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup2" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="40dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup3" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup4" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                app:cardCornerRadius="15dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="4dp"
+                                    android:background="@drawable/path20"
+                                    android:gravity="center"
+                                    android:text="+12"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="330dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="325dp"
+                        android:background="@drawable/rectangle2078"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Homework Title"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#484347"
+                                android:paddingTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14:00 - Mon"
+                                android:textSize="12sp"
+                                android:alpha="0.8"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:layout_alignParentEnd="true"
+                                android:textColor="#342525"
+                                android:paddingTop="10dp"/>
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#DFDFDF"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginTop="4dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:textColor="#2A2B2F"
+                            android:layout_marginTop="6dp"
+                            android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                            android:textSize="12sp"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/lato"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/whyrcic1"
+                                android:scaleType="fitXY"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/group17148"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp">
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="60dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup2" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="40dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup3" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:src="@drawable/maskgroup4" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                app:cardCornerRadius="15dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="4dp"
+                                    android:background="@drawable/path20"
+                                    android:gravity="center"
+                                    android:text="+12"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

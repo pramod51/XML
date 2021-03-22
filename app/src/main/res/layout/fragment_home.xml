@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/maskgroup32"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/menu"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="60dp"
+                            android:layout_gravity="start"
+                            android:layout_marginStart="20dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/group16691"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="10dp"
+                                android:textSize="18sp"
+                                android:layout_centerVertical="true"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:text="Hi, Sukpal"
+                                android:textColor="#484347" />
+
+
+                            <TextView
+                                android:id="@+id/edit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="@drawable/button_background"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/lato"
+                                android:paddingStart="10dp"
+
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:textColor="#484347"
+                                android:text="Class IV"
+                                android:textAllCaps="false" />
+
+
+                        </RelativeLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="9dp"
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="Welcome back"
+                            android:textColor="#F0090909" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="10dp"
+                                android:text="Feeds"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#F0090909" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="20dp"
+                                android:text="View All"
+                                android:layout_alignParentEnd="true"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/lato"
+                                android:textStyle="bold"
+                                android:textColor="#F0090909" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <HorizontalScrollView
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:scrollbars="none"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_margin="0dp"
+                                android:clipToPadding="false"
+                                android:orientation="horizontal"
+                                android:background="@drawable/rectangle1816"
+                                android:layout_width="295dp"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="48dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="School"
+                                            android:minHeight="5dp"
+                                            android:padding="0dp"
+                                            android:textColor="#000"
+                                            android:fontFamily="@font/poppins_semibold"
+                                            android:layout_marginTop="20dp"
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="11sp" />
+                                        <TextView
+                                            android:layout_width="48dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="brodcas"
+                                            android:padding="0dp"
+                                            android:layout_marginTop="-6dp"
+                                            android:minHeight="2dp"
+                                            android:textColor="#000"
+                                            android:fontFamily="@font/poppins_semibold"
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="11sp" />
+                                        <TextView
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="8dp"
+                                            android:fontFamily="@font/poppins"
+                                            android:layout_width="110dp"
+                                            android:maxLines="3"
+                                            android:textColor="#484347"
+                                            android:layout_height="wrap_content"
+                                            android:text="t perspciatis unde omnis iste natus error sit volupta tem accusantium remque"/>
+                                        <TextView
+                                            android:layout_width="95dp"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"
+                                            android:fontFamily="@font/lato"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginStart="10dp"
+                                            android:background="@drawable/rectangle1930"
+                                            android:textColor="@color/white"
+                                            android:text="View All"
+                                            android:textAllCaps="false" />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+                                        <ImageView
+                                            android:paddingEnd="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/ic_broadcast_feeed" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_margin="0dp"
+                                android:clipToPadding="false"
+                                android:orientation="horizontal"
+                                android:background="@drawable/rectangle1816"
+                                android:layout_width="295dp"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="48dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="School"
+                                            android:minHeight="5dp"
+                                            android:padding="0dp"
+                                            android:textColor="#000"
+                                            android:fontFamily="@font/poppins_semibold"
+                                            android:layout_marginTop="20dp"
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="11sp" />
+                                        <TextView
+                                            android:layout_width="48dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="brodcas"
+                                            android:padding="0dp"
+                                            android:layout_marginTop="-6dp"
+                                            android:minHeight="2dp"
+                                            android:textColor="#000"
+                                            android:fontFamily="@font/poppins_semibold"
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="11sp" />
+                                        <TextView
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="8dp"
+                                            android:fontFamily="@font/poppins"
+                                            android:layout_width="110dp"
+                                            android:maxLines="3"
+                                            android:textColor="#484347"
+                                            android:layout_height="wrap_content"
+                                            android:text="t perspciatis unde omnis iste natus error sit volupta tem accusantium remque"/>
+                                        <TextView
+                                            android:layout_width="95dp"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"
+                                            android:fontFamily="@font/lato"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginStart="10dp"
+                                            android:background="@drawable/rectangle1930"
+                                            android:textColor="@color/white"
+                                            android:text="View All"
+                                            android:textAllCaps="false" />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+                                        <ImageView
+                                            android:paddingEnd="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/ic_broadcast_feeed" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_margin="0dp"
+                                android:clipToPadding="false"
+                                android:orientation="horizontal"
+                                android:background="@drawable/rectangle1816"
+                                android:layout_width="295dp"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="48dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="School"
+                                            android:minHeight="5dp"
+                                            android:padding="0dp"
+                                            android:textColor="#000"
+                                            android:fontFamily="@font/poppins_semibold"
+                                            android:layout_marginTop="20dp"
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="11sp" />
+                                        <TextView
+                                            android:layout_width="48dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="brodcas"
+                                            android:padding="0dp"
+                                            android:layout_marginTop="-6dp"
+                                            android:minHeight="2dp"
+                                            android:textColor="#000"
+                                            android:fontFamily="@font/poppins_semibold"
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="11sp" />
+                                        <TextView
+                                            android:layout_marginStart="10dp"
+                                            android:textSize="8dp"
+                                            android:fontFamily="@font/poppins"
+                                            android:layout_width="110dp"
+                                            android:maxLines="3"
+                                            android:textColor="#484347"
+                                            android:layout_height="wrap_content"
+                                            android:text="t perspciatis unde omnis iste natus error sit volupta tem accusantium remque"/>
+                                        <TextView
+                                            android:layout_width="95dp"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"
+                                            android:fontFamily="@font/lato"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginStart="10dp"
+                                            android:background="@drawable/rectangle1930"
+                                            android:textColor="@color/white"
+                                            android:text="View All"
+                                            android:textAllCaps="false" />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+                                        <ImageView
+                                            android:paddingEnd="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/ic_broadcast_feeed" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                    <ImageView
+
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/line62"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"/>
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:textColor="#484347"
+                        android:text="Homework"/>
+                    <LinearLayout
+                        android:id="@+id/homework"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:clipToPadding="false"
+                            android:orientation="horizontal"
+                            android:weightSum="4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/maths"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/rectangle1812"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:id="@+id/math"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_maths" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#484347"
+
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="Maths"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="4dp"
+                                    android:fontFamily="@font/lato"
+                                    android:text="Gutpeet Singh"
+                                    android:textSize="9dp"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:id="@+id/Hindi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:id="@+id/hindi"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_hindi" />
+
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#484347"
+
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="Hindi"/>
+                                <!--                <View-->
+                                <!--                    android:layout_width="match_parent"-->
+                                <!--                    android:layout_height="1dp"-->
+                                <!--                    android:background="@color/lightgray"-->
+                                <!--                    android:layout_margin="10dp"/>-->
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="4dp"
+                                    android:fontFamily="@font/lato"
+                                    android:text="Gutpeet Singh"
+                                    android:textSize="9dp"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/English"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    >
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+
+                                        android:background="@drawable/rectangle1812"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_english" />
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#484347"
+
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="English"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="4dp"
+                                    android:fontFamily="@font/lato"
+                                    android:text="Gutpeet Singh"
+                                    android:textSize="9dp"
+                                    />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/Science"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    >
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_science" />
+
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#484347"
+
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="Science"/>
+                                <!--                <View-->
+                                <!--                    android:layout_width="match_parent"-->
+                                <!--                    android:layout_height="1dp"-->
+                                <!--                    android:background="@color/lightgray"-->
+                                <!--                    android:layout_margin="10dp"/>-->
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="4dp"
+                                    android:fontFamily="@font/lato"
+                                    android:text="Gutpeet Singh"
+                                    android:textSize="9dp"
+                                    />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:clipToPadding="false"
+                            android:orientation="horizontal"
+                            android:weightSum="4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/sst"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_sst" />
+
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#484347"
+
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="S.S.T"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="4dp"
+                                    android:fontFamily="@font/lato"
+                                    android:text="Gutpeet Singh"
+                                    android:textSize="9dp"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/Drawing"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_hindi" />
+
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#484347"
+
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="Drawing"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="4dp"
+                                    android:fontFamily="@font/lato"
+                                    android:text="Gutpeet Singh"
+                                    android:textSize="9dp"
+                                    />
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/line62"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"/>
+                    <LinearLayout
+                        android:layout_marginBottom="80dp"
+                        android:orientation="vertical"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:weightSum="4"
+                            android:clipToPadding="false"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/busTrack"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    app:cardCornerRadius="5dp"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:id="@+id/bus_track"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_bus_track" />
+
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:text="Bus Track"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/Feeds"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:id="@+id/feeds"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_feeds" />
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:text="Feeds"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:layout_gravity="center">
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/events"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_margin="5dp"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/rectangle1812"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_events" />
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:text="Events"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                >
+                                <androidx.cardview.widget.CardView
+
+                                    android:clickable="true"
+                                    android:id="@+id/quiz"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+
+                                        android:background="@drawable/rectangle1812"
+                                        android:gravity="center">
+                                        <ImageView
+                                            android:id="@+id/quiz"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:src="@drawable/ic_quiz" />
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:text="Quiz"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        android:id="@+id/nav_menu"
+        android:background="@drawable/bottom_nav_backg"/>
+
+</RelativeLayout>

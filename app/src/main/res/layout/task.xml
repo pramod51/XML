@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle2058">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle2000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/chevronleft1"
+            android:layout_marginStart="30dp"/>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/lato"
+                    android:text="Hi, Sukpal"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="8dp"
+                    android:text="Here is a List of task"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/lato"
+                    android:text="Add Task"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+                <RelativeLayout
+                    android:layout_width="28dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rectangle2020">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_centerInParent="true"
+                        android:background="#470B63"/>
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_centerInParent="true"
+                        android:background="#470B63"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle1999"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="7">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="January"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#BFBFBF"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="March"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#BFBFBF"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:background="@drawable/path12799"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="April"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#2E2E2E"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="May"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#BFBFBF"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jun"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#BFBFBF"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#BFBFBF"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="August"
+                        android:layout_centerInParent="true"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#BFBFBF"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:weightSum="6">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="26"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#2E2E2E"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" S"
+                                android:gravity="center"
+                                android:textSize="11sp"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#BFBFBF"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="27"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#2E2E2E"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" M"
+                                android:gravity="center"
+                                android:textSize="11sp"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#BFBFBF"/>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="28"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#2E2E2E"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" T"
+                                android:gravity="center"
+                                android:textSize="11sp"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#BFBFBF"/>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle2050">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="29"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="@color/white"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" W"
+                                android:gravity="center"
+                                android:textSize="11sp"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="30"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#2E2E2E"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" T"
+                                android:gravity="center"
+                                android:textSize="11sp"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#BFBFBF"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="01"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#2E2E2E"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" F"
+                                android:gravity="center"
+                                android:textSize="11sp"
+                                android:fontFamily="@font/roboto"
+                                android:textColor="#BFBFBF"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#484347"
+                android:text="Todays Feed(2)"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lato"
+                android:layout_marginBottom="20dp"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/rectangle2003"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10:00\nAM"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="#484347"
+                            android:layout_gravity="center"
+                            android:padding="20dp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/lato"/>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#707070"
+                            android:alpha="0.3"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Task Title"
+                                    android:textColor="#2A2B2F"
+                                    android:textSize="18sp"
+                                    android:fontFamily="@font/lato"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:paddingStart="4dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14:00 - Mon"
+                                    android:layout_alignParentEnd="true"
+                                    android:textColor="#2A2B2F"
+                                    android:textSize="12sp"
+                                    android:alpha="0.9"
+                                    android:textStyle="bold"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_centerVertical="true"
+                                    android:fontFamily="@font/lato"
+                                    android:layout_marginStart="8dp"
+                                    android:paddingStart="4dp"/>
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                android:textColor="#2A2B2F"
+                                android:textSize="12sp"
+                                android:alpha="0.7"
+                                android:layout_marginEnd="30dp"
+                                android:maxLines="3"
+                                android:fontFamily="@font/lato"
+                                android:layout_marginStart="8dp"
+                                android:paddingStart="4dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/path128061"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11:00\nAM"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="#484347"
+                            android:layout_gravity="center"
+                            android:padding="20dp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/lato"/>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#707070"
+                            android:alpha="0.3"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Task Title"
+                                    android:textColor="#2A2B2F"
+                                    android:textSize="18sp"
+                                    android:fontFamily="@font/lato"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:paddingStart="4dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14:00 - Mon"
+                                    android:layout_alignParentEnd="true"
+                                    android:textColor="#2A2B2F"
+                                    android:textSize="12sp"
+                                    android:alpha="0.9"
+                                    android:textStyle="bold"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_centerVertical="true"
+                                    android:fontFamily="@font/lato"
+                                    android:layout_marginStart="8dp"
+                                    android:paddingStart="4dp"/>
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                android:textColor="#2A2B2F"
+                                android:textSize="12sp"
+                                android:alpha="0.7"
+                                android:layout_marginEnd="30dp"
+                                android:maxLines="3"
+                                android:fontFamily="@font/lato"
+                                android:layout_marginStart="8dp"
+                                android:paddingStart="4dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="#484347"
+                        android:text="Upcoming Tasks (30) "
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/lato"
+                        android:layout_marginBottom="10dp"/>
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="155dp"
+                                android:layout_height="150dp"
+                                android:layout_marginEnd="10dp"
+                                >
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/rectangle2005"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00 - Mon"
+                                        android:textSize="12sp"
+                                        android:textColor="#342525"
+                                        android:textStyle="bold"
+                                        android:alpha="0.8"
+                                        android:fontFamily="@font/lato"
+                                        android:paddingTop="10dp"
+                                        android:layout_marginStart="10dp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Title"
+                                        android:textSize="18sp"
+                                        android:textColor="#2A2B2F"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginStart="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                        android:textSize="12sp"
+                                        android:alpha="0.8"
+                                        android:layout_marginEnd="20dp"
+                                        android:maxLines="6"
+                                        android:textColor="#2A2B2F"
+                                        android:paddingTop="4dp"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_marginStart="10dp"/>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="155dp"
+                                android:layout_height="150dp"
+                                android:layout_marginEnd="10dp"
+                                >
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/rectangle2006"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00 - Mon"
+                                        android:textSize="12sp"
+                                        android:textColor="#342525"
+                                        android:textStyle="bold"
+                                        android:alpha="0.8"
+                                        android:fontFamily="@font/lato"
+                                        android:paddingTop="10dp"
+                                        android:layout_marginStart="10dp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Title"
+                                        android:textSize="18sp"
+                                        android:textColor="#2A2B2F"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginStart="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                        android:textSize="12sp"
+                                        android:alpha="0.8"
+                                        android:layout_marginEnd="20dp"
+                                        android:maxLines="6"
+                                        android:textColor="#2A2B2F"
+                                        android:paddingTop="4dp"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_marginStart="10dp"/>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="155dp"
+                                android:layout_height="150dp"
+                                android:layout_marginEnd="10dp"
+                                >
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/path12807"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00 - Mon"
+                                        android:textSize="12sp"
+                                        android:textColor="#342525"
+                                        android:textStyle="bold"
+                                        android:alpha="0.8"
+                                        android:fontFamily="@font/lato"
+                                        android:paddingTop="10dp"
+                                        android:layout_marginStart="10dp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Title"
+                                        android:textSize="18sp"
+                                        android:textColor="#2A2B2F"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginStart="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                        android:textSize="12sp"
+                                        android:alpha="0.8"
+                                        android:layout_marginEnd="20dp"
+                                        android:maxLines="6"
+                                        android:textColor="#2A2B2F"
+                                        android:paddingTop="4dp"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_marginStart="10dp"/>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="155dp"
+                                android:layout_height="150dp"
+                                android:layout_marginEnd="10dp"
+                                >
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/rectangle2005"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00 - Mon"
+                                        android:textSize="12sp"
+                                        android:textColor="#342525"
+                                        android:textStyle="bold"
+                                        android:alpha="0.8"
+                                        android:fontFamily="@font/lato"
+                                        android:paddingTop="10dp"
+                                        android:layout_marginStart="10dp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Title"
+                                        android:textSize="18sp"
+                                        android:textColor="#2A2B2F"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginStart="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                        android:textSize="12sp"
+                                        android:alpha="0.8"
+                                        android:layout_marginEnd="20dp"
+                                        android:maxLines="6"
+                                        android:textColor="#2A2B2F"
+                                        android:paddingTop="4dp"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_marginStart="10dp"/>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="155dp"
+                                android:layout_height="150dp"
+                                android:layout_marginEnd="10dp"
+                                >
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/rectangle2006"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00 - Mon"
+                                        android:textSize="12sp"
+                                        android:textColor="#342525"
+                                        android:textStyle="bold"
+                                        android:alpha="0.8"
+                                        android:fontFamily="@font/lato"
+                                        android:paddingTop="10dp"
+                                        android:layout_marginStart="10dp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Title"
+                                        android:textSize="18sp"
+                                        android:textColor="#2A2B2F"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginStart="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                        android:textSize="12sp"
+                                        android:alpha="0.8"
+                                        android:layout_marginEnd="20dp"
+                                        android:maxLines="6"
+                                        android:textColor="#2A2B2F"
+                                        android:paddingTop="4dp"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_marginStart="10dp"/>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="155dp"
+                                android:layout_height="150dp"
+                                android:layout_marginEnd="10dp"
+                                >
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/path12807"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00 - Mon"
+                                        android:textSize="12sp"
+                                        android:textColor="#342525"
+                                        android:textStyle="bold"
+                                        android:alpha="0.8"
+                                        android:fontFamily="@font/lato"
+                                        android:paddingTop="10dp"
+                                        android:layout_marginStart="10dp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Title"
+                                        android:textSize="18sp"
+                                        android:textColor="#2A2B2F"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginStart="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ut perspiciatis unde omnis iste natus error sit voluem accustium doloremq laudaium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+                                        android:textSize="12sp"
+                                        android:alpha="0.8"
+                                        android:layout_marginEnd="20dp"
+                                        android:maxLines="6"
+                                        android:textColor="#2A2B2F"
+                                        android:paddingTop="4dp"
+                                        android:fontFamily="@font/lato"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_marginStart="10dp"/>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

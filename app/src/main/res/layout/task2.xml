@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/rectangle2096"
+    android:layout_height="match_parent"
+    tools:context=".Attendence1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/path12824"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create Event"
+                    android:textSize="20sp"
+                    android:textColor="#191919"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginStart="20dp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Title"
+                    android:paddingStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textSize="20sp"
+                    android:backgroundTint="#707070"
+                    android:fontFamily="@font/lato"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Colors"
+                        android:textSize="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#191919"
+                        android:alpha="0.7"
+                        android:fontFamily="@font/lato"
+                        android:layout_marginStart="20dp"/>
+                    <RadioGroup
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:layout_width="20dp"
+                                android:background="@drawable/check_box1"
+                                android:layout_margin="4dp"
+                                android:checked="true"
+                                android:layout_height="20dp"
+                                android:button="@null"/>
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:layout_width="20dp"
+                                android:layout_margin="4dp"
+                                android:background="@drawable/check_box2"
+                                android:checked="true"
+                                android:layout_height="20dp"
+                                android:button="@null"/>
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:layout_width="20dp"
+                                android:layout_margin="4dp"
+                                android:background="@drawable/check_box3"
+                                android:checked="true"
+                                android:layout_height="20dp"
+                                android:button="@null"/>
+
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:layout_width="20dp"
+                                android:background="@drawable/check_box4"
+                                android:checked="true"
+                                android:layout_margin="4dp"
+                                android:layout_height="20dp"
+                                android:button="@null"/>
+
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:layout_width="20dp"
+                                android:background="@drawable/check_box5"
+                                android:checked="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_height="20dp"
+                                android:button="@null"/>
+
+                        </LinearLayout>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:hint="Title"
+                    android:paddingStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textSize="20sp"
+                    android:gravity="start"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@drawable/rec_outline"
+                    android:fontFamily="@font/lato"/>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Start Date"
+                    android:paddingStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#2A2B2F"
+                    android:textColorHint="#2A2B2F"
+                    android:textSize="18sp"
+                    android:gravity="start|center_vertical"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@drawable/rectangle2104"
+                    android:fontFamily="@font/lato"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:weightSum="2">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint="Start Time"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:textColor="#2A2B2F"
+                        android:textColorHint="#2A2B2F"
+                        android:textSize="20sp"
+                        android:gravity="start|center_vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:background="@drawable/rectangle2113"
+                        android:fontFamily="@font/lato"/>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint="End Time"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:textColor="#2A2B2F"
+                        android:textColorHint="#2A2B2F"
+                        android:textSize="20sp"
+                        android:gravity="start|center_vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:background="@drawable/rectangle2105"
+                        android:fontFamily="@font/lato"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#131514"
+                        android:layout_gravity="center_vertical"
+                        android:text="Cancel"
+                        android:background="@drawable/rectangle2110"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/lato"/>
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="4dp"
+                        android:text="Send"
+                        android:background="@drawable/rectangle2101"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/lato"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">XML</string>
+
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_Fees">Fees</string>
+    <string name="title_Chats">Chat</string>
+    <string name="title_Results">Results</string>
+    <string name="title_Attends">Attends</string>
+</resources>

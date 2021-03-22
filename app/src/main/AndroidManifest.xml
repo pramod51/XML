@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="money.easy.xml">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:hardwareAccelerated="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Attendence"></activity>
+        <activity android:name=".Attendence1"/>
+        <activity android:name=".HomeTeacher"
+            android:fitsSystemWindows="true"/>
+        <activity android:name=".MyProfile9"/>
+        <activity android:name=".TeacherProfile"/>
+        <activity android:name=".MyProfile10"/>
+        <activity android:name=".MyProfile1"/>
+        <activity android:name=".Attendence2"/>
+
+        <activity android:name=".MyProfile3" />
+        <activity android:name=".my_profile5"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name=".SubmitAssignment" />
+        <activity android:name=".BusTrack" />
+        <activity android:name=".my_profile4" />
+        <activity android:name=".Quiz1" />
+        <activity android:name=".Feed"/>
+        <activity android:name=".Calender2"/>
+        <activity android:name=".HomeWork" />
+        <activity android:name=".QuizResult"/>
+        <activity android:name=".Calender3"/>
+
+        <activity
+            android:name=".DashBoard"
+            android:fitsSystemWindows="true" />
+        <activity android:name=".Quiz2" />
+        <activity android:name=".Quiz3" />
+        <activity android:name=".Quiz4" />
+        <activity android:name=".AddnewTask" />
+        <activity android:name=".Calender" />
+        <activity android:name=".MyProfile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

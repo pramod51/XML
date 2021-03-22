@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/group17462"
+        android:state_selected="true"/>
+
+    <item android:drawable="@drawable/ellipse248"
+        android:state_selected="false" />
+</selector>
